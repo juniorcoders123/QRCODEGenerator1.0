@@ -14,7 +14,7 @@ def get_image_download_link(img):
 	href = f'<a href="data:file/png;base64,{img_str}">Download result</a>'
 	return href
 
-st.title = "Junior Coders QR CODE Generator"
+st.title("Junior Coders QR CODE Generator")
 text = st.text_input("Enter text or link for which you want QR CODE")
 if st.button("Generate QR CODE"):
     if text == '':
